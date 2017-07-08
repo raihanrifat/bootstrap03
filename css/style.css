@@ -1,0 +1,226 @@
+.header_bg{background-color: black;min-height: 107px;}
+.new_nav_style{background-image: none;background-color: transparent;box-shadow: none;border: 0px;}
+.nav li a{color: white!important;}
+.logo{padding: 17px;}
+.nav_bar{padding-top: 24px;}
+.header_bg_image{background: url(../images/slider_snowboarding.jpg) no-repeat;min-height: 649px;background-size: cover;background-position: center center;}
+
+.header_caption{margin: 185px auto;width: 41%;}
+.header_caption h1{color: white;font-weight: bold;font-size: 80px;text-transform: uppercase;}
+.header_caption .see_details{color: white;border: 0px;background-color: black;padding: 15px 50px;float: right;margin-top: 30px;}
+
+
+/*slider css*/
+.multi-item-carousel .carousel-inner > .item {
+  -webkit-transition: 500ms ease-in-out left;
+  transition: 500ms ease-in-out left;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    -webkit-transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out left;
+    -webkit-transition: 500ms ease-in-out all;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: none!important;
+            transform: none!important;
+  }
+}
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
+}
+body {
+  background: #333;
+  color: #ddd;
+}
+
+.carousel{background-color: white;padding-bottom: 150px;}
+.white_bg{background-color: white;padding-top: 35px;}
+.remove_shadow{background-image: none!important;}
+.remove_shadow i{color: grey;font-size: 100px;margin-top: 115px;}
+
+.feature_title{text-align: center;}
+.feature_title h1{color: black;font-size: 48px;text-transform: uppercase;margin: 0px;padding: 0px;}
+.feature_title p{color: black;margin-top: 30px;}
+.feature_title p i{color: black;font-size: 30px;}
+
+.achivement{background: url(../images/mountain_snowboarding.jpg) no-repeat;min-height: 649px;background-size: cover;background-position: center center;}
+
+.achivement_text{width: 40%;position: relative;left: 14%;top: 170px;}
+.achivement_text h1{font-size: 48px;font-weight: bold;padding-bottom: 30px;color: white;}
+.achivement_text p{font-size: 15px;}
+.my_thumbnalin{padding-bottom: 60px;}
+.my_thumbnalin>a>img{width: 100%;}
+.my_thumbnalin>p{color: black;padding-top: 10px;}
+.my_thumbnalin{padding-top: 20px;}
+
+.my_footer{padding-top: 30px;}
+.footer_bg{background-color: black;min-height: 250px;}
+
+.products {}
+.products h2{font-size: 20px;padding-bottom: 20px;text-transform: uppercase;}
+.products ul{list-style: none;}
+.products ul li{margin-top: 4px;}
+.products ul li a{text-decoration: none;color: #c9c9c9;}
+.products p{padding-top: 40px;color: #c9c9c9;}
+
+.about {}
+.about h2{font-size: 20px;padding-bottom: 20px;text-transform: uppercase;}
+.about ul{list-style: none;}
+.about ul li{margin-top: 4px;}
+.about ul li a{text-decoration: none;color: #c9c9c9;}
+
+.customer_support {}
+.customer_support h2{font-size: 20px;padding-bottom: 20px;text-transform: uppercase;}
+.customer_support ul{list-style: none;}
+.customer_support ul li{margin-top: 4px;}
+.customer_support ul li a{text-decoration: none;color: #c9c9c9;}
+
+.news_letter {}
+.news_letter h2{font-size: 20px;padding-bottom: 20px;text-transform: uppercase;}
+
+
+.go_design a{text-decoration: none;color: black;font-size: 20px;font-weight: bold;}
+
+
+
+/*footer social icon*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
